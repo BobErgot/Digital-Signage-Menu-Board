@@ -1,0 +1,111 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+}
+
+:root {
+  --themeBG: #efefef;
+  --themeFont: #1d1e22;
+}
+
+body {
+  margin: 0 24px;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--themeBG);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Lato', sans-serif;
+}
+
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background: var(--themeBG);
+  color: var(--themeFont);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.itemWrap {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+@media (min-width: 1024px) {
+  .itemWrap {
+    width: calc(50% - 20px);
+  }
+}
+
+.itemNameWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemName {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.itemMiddle {
+  vertical-align: bottom;
+  background-image: radial-gradient(var(--themeFont) 1px, var(--themeBG) 0px);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: left 90%;
+  flex-grow: 2;
+}
+
+.itemPrice {
+  font-size: 1.2em;
+  padding-top:5px;
+  font-weight: bold;
+}
+
+.itemDescription {
+  /* font-style: italic; */
+  font-weight: 900;
+}
+
+.vegetarian{
+    color: #198C19;
+}
