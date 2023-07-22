@@ -1,21 +1,17 @@
 html {
-  color: #222;
+  color: #FEFEFE;
   font-size: 1em;
   line-height: 1.4;
 }
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #FEFEFE;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #FEFEFE;
   text-shadow: none;
-}
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
@@ -29,8 +25,8 @@ html {
   *,
   *::before,
   *::after {
-    background: #fff !important;
-    color: #000 !important;
+    background: #FEFEFE !important;
+    color: #000000 !important;
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
@@ -38,8 +34,8 @@ html {
 }
 
 :root {
-  --themeBG: #efefef;
-  --themeFont: #1d1e22;
+  --themeBG: #FEFEFE;
+  --themeFont: #000000;
 }
 
 body {
@@ -84,6 +80,7 @@ body {
 .itemName {
   font-size: 1.5em;
   font-weight: 800;
+  color: #3D0C0D
 }
 
 .itemMiddle {
@@ -96,8 +93,7 @@ body {
 }
 
 .itemPrice {
-  font-size: 1.2em;
-  padding-top:5px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 

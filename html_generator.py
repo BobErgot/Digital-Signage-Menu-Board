@@ -98,7 +98,7 @@ def create_and_display_html(menu_list, template_path, output_path):
 
 # Main flow
 if __name__ == "__main__":
-    input_csv = 'csv/menu.csv'
+    input_csv = 'menu/menu.csv'
     sorted_df = sort_csv(input_csv)
 
     menu_1_list, menu_2_list = read_sorted_menu(sorted_df)
