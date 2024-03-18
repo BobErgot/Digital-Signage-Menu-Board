@@ -2,6 +2,8 @@
 
 The Digital Signage Menu Board project is designed to automate the process of displaying menu items for restaurants, cafes, or any food service establishments on digital screens. Utilizing Python, Pandas for data manipulation, BeautifulSoup for HTML parsing, and web technologies, it reads menu data from a CSV file, sorts and organizes this information, then generates and displays it in an aesthetically pleasing format on a digital menu board.
 
+An insightful exploration of the UI/UX design process for a digital menu case-study can be found at [The Deli Dilemma: Perspective on Menu Accessibility and Customer Experience](https://bobbydoshi.com/uiux-deli-menu-redesign/), providing a rich context for understanding the visual and functional aspects of digital menu design.
+
 ## Features
 
 - **CSV Menu Sorting:** Sorts menu items based on flags (with priority to vegetarian options), price, and name.
